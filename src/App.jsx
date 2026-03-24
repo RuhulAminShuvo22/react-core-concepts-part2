@@ -6,8 +6,8 @@ import './App.css';
 import Counter from './counter';
 import { Suspense } from 'react';
 
-const fetchUsers = fetch('https://jsonplaceholder.typicode.com/users')
-  .then(res => res.json());
+// const fetchUsers = fetch('https://jsonplaceholder.typicode.com/users')
+//   .then(res => res.json());
 
 const fetchFriends = async() => {
   const res = await  fetch('https://jsonplaceholder.typicode.com/users');
